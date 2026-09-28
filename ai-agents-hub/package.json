@@ -1,0 +1,20 @@
+{
+  "name": "iztsnow-ai-agents-hub",
+  "version": "1.0.0",
+  "description": "IZTSNOW ServiceNow AI agents with a Microsoft Copilot channel (demo)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/agents.test.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "zod": "^4.6.5"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
